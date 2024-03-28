@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/ly_why_do_u_need"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_ly_services"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/down_arrow"
+            android:drawablePadding="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:text="Why do you need to upgrade to connected charger?"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:text="Exicom AC charger supplied along with the car has a warranty for one year. The warranty period is applicable for one year from the date of commissioning of the charger.
+\n\n In case your AC charger starts malfunctioning at the lapse of warranty, you can rely on Exicom’s Extended Warranty Cover."
+            android:textColor="@color/colorTextLight"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".ui.SplashTwoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentLeft="true"
+                        android:src="@mipmap/btn_back" />
+
+                    <TextView
+                        android:id="@+id/edit_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_horizontal|top"
+                        android:text="Set as active"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/themeColor"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_horizontal|top"
+                    android:text="Select Vehicle"
+                    android:textColor="@color/colorText"
+                    android:textSize="32sp" />
+
+
+                <EditText
+                    android:id="@+id/regNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/coloretTexT_Botttom"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:hint="Car Number"
+                    android:focusable="false"
+                    android:descendantFocusability="blocksDescendants"
+                    android:clickable="false"
+                    android:inputType="textCapCharacters"
+                    android:textAllCaps="true"
+                    android:focusableInTouchMode="false"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorText"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/brand"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/coloretTexT_Botttom"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:hint="Car Brand"
+                    android:paddingRight="20dp"
+                    android:descendantFocusability="blocksDescendants"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/model"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/coloretTexT_Botttom"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:descendantFocusability="blocksDescendants"
+                    android:hint="Car Model"
+                    android:paddingRight="20dp"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:focusableInTouchMode="false"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/year"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/coloretTexT_Botttom"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:hint="Year"
+                    android:focusable="false"
+                    android:descendantFocusability="blocksDescendants"
+                    android:clickable="false"
+                    android:focusableInTouchMode="false"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/connector"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/coloretTexT_Botttom"
+                    android:drawableEnd="@mipmap/down_arrow"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:hint="Connector type"
+                    android:paddingRight="20dp"
+                    android:visibility="gone"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:focusableInTouchMode="false"
+
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

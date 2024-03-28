@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_ly_services"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/serial_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="hiiiiiiii"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/colorText"
+                android:fontFamily="@font/inter_regular"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/nickName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hiiiiiiii"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/colorText"
+                android:fontFamily="@font/inter_regular"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/permission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="hiiiiiiii"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical|right"
+                android:textColor="@color/colorText"
+                android:fontFamily="@font/inter_medium"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".ui.SplashTwoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="15dp"
+            android:src="@mipmap/btn_back" />
+
+
+
+
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="20dp"
+         android:fontFamily="@font/inter_regular"
+         android:gravity="center_horizontal|top"
+         android:text="Receipt history"
+         android:textColor="@color/colorText"
+         android:textSize="32sp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg_ly_services"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/reciept_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/inter_medium"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Receipt"
+                android:textColor="@color/colorText"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_logo_re" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger"
+            android:textColor="@color/colorlight"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/charger_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger 1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger type"
+            android:textColor="@color/colorlight"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/charger_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger 1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="ID"
+            android:textColor="@color/colorlight"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/transaction_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger 1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Plan"
+            android:textColor="@color/colorlight"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/plan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger 1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Period"
+            android:textColor="@color/colorlight"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/period"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger 1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/desc_date_of_warranty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Date of Warranty"
+            android:textColor="@color/colorlight"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/date_of_warranty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger 1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+
+
+        <LinearLayout
+            android:id="@+id/ly_vas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:text="VAS"
+                android:textColor="@color/colorlight"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/vas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:text="Charger 1"
+                android:textColor="@color/colorText"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Payment method"
+            android:textColor="@color/colorlight"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/payment_method"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger 1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Address"
+            android:textColor="@color/colorlight"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_vertical"
+            android:text="Charger 1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:text="Total"
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_download"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_unselected_btn"
+                android:fontFamily="@font/inter_medium"
+                android:text="Download"
+                android:textAllCaps="false"
+                android:textColor="@color/colorText"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>

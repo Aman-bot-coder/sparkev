@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeColor"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.SplashActivity">
+    <!--<ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:src="@mipmap/white_logo">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:padding="25dp"
+        android:textSize="22sp"
+        android:text="Innovate and Designed for \nseamless charging experience">
+
+    </TextView>-->
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_margin="10dp"
+        android:src="@mipmap/splash">
+
+    </ImageView>
+
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:text="Internet enabled chargers comes handy and offers many advance features which makes charging management very easy. Some of the key features which connected charger offers inludes.
+Schedule your charging \n \u2022 schedule your charging \n \u2022 Execute commands like start/ stop on charger while sitting anywhere in the world
+Give voice enabled commands using Alexa\n
+Provides full support for smart watch\n
+Buy/renew warranty online directly from Exicom\n
+Track your charging session\n
+Get real time notifications in your app">
+
+    </TextView>-->
+
+</LinearLayout>

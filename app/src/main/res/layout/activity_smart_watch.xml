@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/colorBg"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/btn_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter_regular"
+        android:gravity="center_horizontal|top"
+        android:text="Watch Sync"
+        android:textColor="@color/colorText"
+        android:textSize="32sp" />
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_login_btn"
+        android:fontFamily="@font/inter_medium"
+        android:text="Connect Smart Watch"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:onClick="talkClick"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btn_connect_smart_watch"
+            android:layout_width="200dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_smart_watch"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:fontFamily="@font/inter_regular"
+            android:text="Make sure that your \nwearable is Connected "
+            android:textAllCaps="false"
+            android:textColor="@color/colorText"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

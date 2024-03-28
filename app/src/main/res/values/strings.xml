@@ -1,0 +1,311 @@
+<resources>
+    <string name="app_name">SPARK EV</string>
+
+    <!--Home-->
+    <!--Navigation dwawer menu-->
+    <string name="Home">Home</string>
+    <string name="Charging_station">Charging Stations</string>
+    <string name="add_charger">Add Charger</string>
+    <string name="scan_charger">Quick Charge</string>
+    <string name="profile">Profile</string>
+    <string name="history">Charging History</string>
+    <string name="my_vehicle">My Vehicle</string>
+    <string name="my_Booking">My Booking</string>
+    <string name="fav">My Favourite</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="subscription">Subscription</string>
+    <string name="corporate">Corporate</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="privacy">DPPD</string>
+    <string name="faq">FAQ\'S</string>
+    <string name="online_assessment">Online Assistance</string>
+    <string name="return_to_callback">Callback Request</string>
+    <string name="share_app">Share App</string>
+    <string name="logout">Logout</string>
+    <string name="google_maps_key">AIzaSyDFMaXURcAeSa3KWAKJbqNMDbUQzodhvwc</string>
+    <string name="login"></string>
+    <string name="do_not_have_account">Don\'t have an Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="user_verified">You are not verified user, Please verify. </string>
+
+    <!--Signup Activity messages-->
+    <string name="signup"><u><b>Sign Up</b></u></string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="otp_verification">OTP verification</string>
+    <string name="login_with_otp"><u>Login with OTP</u></string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="pass_msg">Password must be between 8 to 16 character one special character, one number, one upper case  and one lower case character.</string>
+    <string name="incorrect_mobile_number">Incorrect mobile number</string>
+    <string name="incorrect_email">Incorrect email</string>
+    <string name="registration_successfully">Registration Successfully.</string>
+    <string name="internet_connection">Internet Connection</string>
+    <string name="veryfy_user">Verify User</string>
+    <string name="already_member">Already a member ?</string>
+    <string name="not_a_member">Not a member ?</string>
+
+    <string name="create_profile">Create your profile</string>
+
+    <string name="create_password">Create new password</string>
+
+    <string name="add_vehicle">Add vehicle</string>
+    <string name="contact_us_u">Contact us</string>
+
+    <!--End-->
+
+
+    <!--Navigation Drawer-->
+
+    <!--Login Activity messages-->
+    <string name="incorrect_first_name">Incorrect First Name</string>
+    <string name="incorrect_employee_code">Incorrect Username</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="phone_permission">Required phone book permission.</string>
+    <string name="login_successfully">Login Successful.</string>
+    <string name="invalid_email_password">Invalid employee code or password.</string>
+    <string name="phone_permission_message">App required phone permission click OK and go to Permissions>>Phone\nPlease allow this.</string>
+    <string name="alert_message">User is already registered with different device.If click \'\Ok\'\ to confirm with login access will be revoke from older device. </string>
+    <string name="location_permission_message">We need access to your location to be able to find a place for you to charge. Please press the button below to continue.</string>
+    <string name="location_not_found">Location not found.</string>
+    <string name="please_enter_field">Please enter field.</string>
+    <string name="no_data_found">No Data Found. </string>
+    <string name="server_not_found_please_try_again">Server not responding, Please try again.</string>
+    <string name="server_not_responding">Server not responding, Please try again.</string>
+    <string name="json_parsing_issue">JSON parsing issue.</string>
+    <!--    <string name="no_internet">No Internet</string>-->
+    <string name="loading">Please wait...</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="cancel">Cancel</string>
+    <!--End-->
+
+    <!--Scan Charger-->
+    <string name="scan_qrcode">Please scan your QR code</string>
+    <!--End-->
+
+    <!--Charger Booking Activity-->
+    <string name="please_select_time">Please select your booking time</string>
+    <!--End-->
+
+    <!--My Vehicle-->
+    <string name="delete_vehicle">Are you sure, you want to delete?</string>
+    <!--End-->
+    <!--Notification Message-->
+    <string name="default_notification_channel_id">Charging Notification</string>
+    <string name="default_notification_channel_name">Charging</string>
+    <string name="msg_token_fmt">1212121</string>
+
+    <!--Charger Message-->
+    <string name="msg_charger_start">Charger Start Successfully</string>
+    <string name="msg_charger_stop">Charger Stop Successfully</string>
+    <!--End-->
+
+    <!--OTP Screen-->
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp_willbe_read_auto">OTP will read automatically</string>
+    <string name="please_wait_otp1">We’ve sent on your phone (**62) six-digit code, please enter for verification</string>
+    <string name="please_wait_otp2"> six-digit code, please enter for verification</string>
+
+    <string name="have_not_recieve_otp">Haven\'t receive OTP ? </string>
+    <string name="send_again">Send Again</string>
+    <string name="done">Send</string>
+    <string name="Please_enter_correct_OTP">Please enter correct OTP.</string>
+    <string name="please_enter_correct_verification_code">Please enter correct verification code</string>
+    <string name="you_will_recieve_otp_two_minutes">You will receive OTP with in 01:00 minutes.</string>
+    <string name="try_again">Try Again</string>
+    <string name="mobile_verification_code"></string>
+
+    <!--End-->
+
+
+    <!--DashBoard Screen-->
+    <string name="scan_charger_message">Please scan QR code for charger.</string>
+    <string name="stop_charger">Are you sure, you want to STOP Charging?</string>
+    <string name="exit_message">Are you sure, you want to Exit?</string>
+    <string name="logout_message">Are you sure, you want to Logout?</string>
+    <string name="skip_login_message">"Please signup/register yourself to avail more features!".</string>
+
+    <!--End-->
+
+    <!--Booking-->
+    <string name="cancel_booking">Are you sure, you want to cancel?</string>
+    <string name="tem_and_condition">I agree with T&amp;C.</string>
+    <!--End Booking-->
+
+
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="title_activity_spinmain">SPINMainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="title_services">Services</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_bottom_main">BottomMainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!--SPIN APP         -->
+    <string name="title_configuration">Configuration</string>
+    <string name="title_search">Search</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="title_email_id">Email Id</string>
+    <string name="title_password">Password</string>
+    <string name="title_login_message">Enter your email address and password.</string>
+    <string name="title_live_data">Live Data</string>
+    <string name="title_alarms">Alarms</string>
+    <string name="title_logs">Logs</string>
+
+
+    <!--//////////////////new String//////////////-->
+    <string name="forgot">Forgot Password</string>
+    <string name="forgot_message">Enter your mobile number.</string>
+    <string name="login_text">LOGIN</string>
+    <string name="forget">Forgot Password ?</string>
+    <string name="signupMessge">DON\'T HAVE AN ACCOUNT ?</string>
+    <string name="tapToStart">Tap to Start Charging</string>
+    <string name="gettingStatus">Getting Status</string>
+    <string name="tapToStop">Tap to Stop Charging</string>
+    <string name="current">Current</string>
+    <string name="session_time">Session Time</string>
+    <string name="session_unit">Session Unit</string>
+    <string name="home">Home</string>
+    <string name="contactus">Contact Us</string>
+    <string name="ac_input">AC Input</string>
+    <string name="server">Server</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="system">System</string>
+    <string name="delete">Delete</string>
+    <string name="protection">Protection</string>
+    <string name="info">Info</string>
+    <string name="swupdate">SW Update</string>
+    <string name="device_not_found">Tap "\'"+"\'"  to add charger.</string>
+    <string name="guestnorequest">No Request Found!!</string>
+    <string name="aboutus">Exicom set a goal to accelerate the electrification of vehicles in India by providing EV charging Infrastructure and Li-ion batteries for all types of vehicles with technology which is globally accepted. We power electric cards with our EV chargers that are reliable, easy to use and connect</string>
+
+    <string name="invalid_Credential">Invalid Credentials</string>
+    <!--Registration-->
+    <!--Invalid Email Id-->
+    <string name="invalid_emial">Email Id Not Correct</string>
+    <!--Invalid Number-->
+    <string name="mobile_number">Mobile Number Not Valid</string>
+
+    <!--Invalid Name (Less then 2 char)-->
+    <string name="name_invalid">Mobile Number Not Valid</string>
+    <!--Success Registration-->
+    <string name="registration_success">Registration Successfully</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="contactLength">Select Country first</string>
+    <string name="require_internet">Require internet connection to showing Guest Request</string>
+    <string name="name">Name</string>
+    <string name="emialId">Email Id</string>
+    <string name="mobile">Mobile</string>
+    <string name="country">Country</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registration">Register</string>
+    <string name="or_sign_in">Or Sign In With</string>
+    <string name="create_account">Create account</string>
+    <string name="cuontinue">Continue</string>
+    <string name="already_account">Already Have An Account ?</string>
+    <!--///////////Login/////////////////////-->
+    <string name="sign_in">Sign in</string>
+    <string name="invalid_username_password">Invalid Username or Password</string>
+    <string name="user_password">Please Enter UserId and Password</string>
+    <string name="forget_success">Your password has been reset successfully. Please check your Registered  mobile for new password</string>
+    <string name="email_not_fond">Email Id Not Found</string>
+    <string name="mobile_not_fond">Mobile number not found</string>
+    <!--////////////when Data Base Any Exception Occure///////////////-->
+    <string name="something_went_wrong">Something Went Wrong.Try Again</string>
+    <string name="enter_email">Please Enter EmailID</string>
+    <string name="enter_mobile">Please enter valid mobile number</string>
+    <string name="unauthorized">User Token expired, re login again</string>
+    <string name="invalid_user">Invalid User</string>
+    <string name="parsing_error">Something went wrong.</string>
+
+    <!--///////////////////DashBoard////////////////////////-->
+    <string name="connect_to_exicom">Connect to Exicom Charger Bluetooth</string>
+    <string name="disconnect_reconnect">Please disconnect and reconnect the plug</string>
+    <string name="more_option_long_press">More options not available as charger is in </string>
+    <string name="mode">mode</string>
+    <string name="still_in">Still in </string>
+    <string name="found_status">Still getting  Status</string>
+    <string name="alarm_send_sucess">Alarm reported successfully</string>
+    <string name="previous_no_data">No Previous Data Available</string>
+    <string name="no_data">No Data Found</string>
+    <string name="delete_success">Charger deleted from account successfully</string>
+    <string name="dev_not_found">Device Not Found</string>
+    <string name="gps_open">Gps already enabled</string>
+    <string name="gps_not_support">Gps not Supported</string>
+    <string name="not_enable">Gps not enabled</string>
+    <string name="no_device_avilable">No devices available to connect</string>
+    <string name="charger_not_found">Charger Not Found</string>
+    <string name="device_disconnect">Device Disconnected</string>
+    <string name="unauthorized_command">Unauthorized Command</string>
+    <string name="no_left">No Move To Left Side</string>
+    <string name="no_right">No Move To Right Side</string>
+    <!--/////////////////////////ScanCodepage//////////-->
+    <string name="invalid_qr_code">Invalid QR Code</string>
+    <string name="guest">Guest</string>
+    <string name="scan_qr_title">Scan QR Code Printed On Charger</string>
+    <string name="serial_number">partnumber#serialnumber</string>
+    <string name="save">Save</string>
+    <string name="senderid_not_found">Sender I\'d Incorrect</string>
+    <string name="me_bootom">Me</string>
+    <string name="id_empty">UserId Not Empty</string>
+    <string name="pass_empty">Password Not Empty</string>
+    <string name="logount_unsucess">User not logged in yet</string>
+    <string name="logount_sucess">Successfully logged out</string>
+    <string name="send_recived_request_not_found">No  request available</string>
+    <string name="delete_guest_user_popup">Do you really want to revoke access from Guest?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="later">Remind Later</string>
+    <string name="invalid_time">Invalid time</string>
+    <string name="select_date_first">Select date first.</string>
+    <string name="select_country">Select Country first.</string>
+    <string name="fill_appoinment">Please set Appointment all fields</string>
+    <string name="minor_update">There is new version of this application available, click ok to upgrade now? </string>
+    <string name="mandotory_update">There is new version of this application available, click ok to upgrade now? </string>
+    <string name="charger_not_foung_message">Charger information not found.please try again</string>
+    <string name="registred_success">Device registered successfully</string>
+    <string name="timeout">Connection time out!</string>
+    <string name="server_erro">Server Error.</string>
+    <string name="no_datafound">No data Found.</string>
+    <string name="emptyMessage">Nothing to show.</string>
+    <string name="charger_deleted">Charger deleted from account successfully</string>
+    <string name="device_not_found_toaste">Device not found</string>
+    <string name="not_permit_guest">This functionality used only for charger Admin</string>
+    <string name="charger_start_popup">Make sure your vehicle is in parking mode and locked.</string>
+    <string name="public_mode_message">You are not authorized to access the charger, since this is a private charger.</string>
+    <string name="number_formatexception">Please Enter Number</string>
+    <string name="min_kwh">Min value of kWh should be 1</string>
+    <string name="min_time">Min value of time should be 1 Hour</string>
+    <string name="no_log">No log available</string>
+
+
+    <!--Splash Start-->
+    <string name="control_sch">Control, schedule &amp; share</string>
+
+    <string name="term_and_condition">Terms &amp; conditions</string>
+    <string name="control_sch_text">charging experience!</string>
+    <!--Splash End-->
+
+
+    <string name="Rs">\u20B9</string>
+    <string name="rs">\u20A8</string>
+
+
+    <string name="what_is_alexa">Alexa is Amazon’s cloud-based voice service available on more than 100 million devices from Amazon and third-party device manufacturers, like with Exicom AC Tyoe-2 Charger. With Alexa, you can build natural voice experiences that offer customers a more intuitive way to interact with the technology they use every day. Manage EV charger with Alexa voice assistant.
+User has to login with Alexa app with same mobile number/email which is registered with Spin App. Once login successful, enable Alexa Skills &quot; Exicom Charger &quot; to connect with your EV charger.
+</string>
+    <string name="start_charger">Start Charger is an intent which makes Alexa enabled to give command to your EV charger to start the charging where your vehicle is already plugged in with charger. Say like “ Alexa Open Exicom charger, followed by “ Start Charger”</string>
+    <string name="alexa_stop_charger">Same as command for ‘start charger’, user can give command to Alexa to Stop Charger by waking intent followed by event call like “ Alexa Open Exicom charger, followed by “ Stop Charger”</string>
+
+    <string name="charger_status">This features gives you the current charging status - Charger Idle, Charger Offline, Charging stopped, Charging in progress -
+charged for how many Kwh of energy and charging running since how long in hours or minutes."
+</string>
+
+    <string name="service_message">These features along with some exciting other benefits are coming soon.Pre-book with us. </string>
+</resources>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".ui.SplashTwoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@mipmap/btn_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:drawableLeft="@mipmap/ic_alexa"
+                    android:drawablePadding="5dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_horizontal|top"
+                    android:text="Alexa"
+                    android:textColor="@color/colorText"
+                    android:textSize="32sp" />
+
+                <LinearLayout
+                    android:id="@+id/ly_charger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bg_ly_services"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/charger_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@mipmap/down_arrow"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:padding="15dp"
+                        android:text="What is Alexa?"
+                        android:textColor="@color/colorText"
+                        android:textColorHint="@color/colorText"
+                        android:textSize="18sp" />
+
+
+                    <TextView
+                        android:id="@+id/what_is_alexa_des"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:padding="20dp"
+                        android:visibility="gone"
+                        android:text="@string/what_is_alexa"
+                         android:textColor="@color/colorTextLight"
+                        android:textSize="12sp"
+                      />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:gravity="center_vertical"
+                    android:padding="20dp"
+                    android:text="Exicom charger features"
+                    android:textColor="@color/colorlight"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/ly_start_charger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_ly_services"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_start_charger"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@mipmap/down_arrow"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:padding="20dp"
+                        android:text="Start charging"
+                        android:textColor="@color/colorText"
+                        android:textColorHint="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ly_start_charging_dec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_start_charger_dec"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:text="@string/start_charger"
+                            android:textColor="@color/colorTextLight"
+                            android:textSize="12sp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@mipmap/ic_alexa_l"
+                            android:drawablePadding="10dp"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:text=" Alexa start charging"
+                            android:textColor="@color/themeColor"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_ly_services"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_stop_charging"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@mipmap/down_arrow"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:padding="20dp"
+                        android:text="Stop charging"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ly_stop_charging_dec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_stop_charger_dec"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:text="@string/alexa_stop_charger"
+                            android:textColor="@color/colorTextLight"
+                            android:textSize="12sp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@mipmap/ic_alexa_l"
+                            android:drawablePadding="10dp"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:text=" Alexa stop charging"
+                            android:textColor="@color/themeColor"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_charing_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_ly_services"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_charging_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@mipmap/down_arrow"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:padding="20dp"
+                        android:text="Charging status"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/ly_status_charging_dec"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_status_charger_dec"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:text="@string/charger_status"
+                            android:textColor="@color/colorTextLight"
+                            android:textSize="12sp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawableLeft="@mipmap/ic_alexa_l"
+                            android:drawablePadding="10dp"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="20dp"
+                            android:text="Alexa charger status"
+                            android:textColor="@color/themeColor"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_connect_alexa"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/bg_login_btn"
+                        android:fontFamily="@font/inter_medium"
+                        android:text="Connect Alexa"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

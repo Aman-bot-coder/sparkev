@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".ui.SplashTwoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_horizontal|top"
+            android:text="Wi-Fi Name"
+            android:textColor="@color/colorText"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/wifi_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/coloretTexT_Botttom"
+            android:fontFamily="@font/inter_regular"
+            android:hint="Wi-fi"
+            android:text=""
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextLight"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <EditText
+                android:id="@+id/wifi_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.88"
+                android:background="@android:color/transparent"
+                android:drawablePadding="10dp"
+                android:hint="Password"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorTextLight"
+                android:fontFamily="@font/inter_regular"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/eye"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.12"
+                android:src="@mipmap/ic_eye_close">
+
+            </ImageView>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/coloretTexT_Botttom"
+            android:layout_height="1dp">
+
+        </View>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_login_btn"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:fontFamily="@font/inter_medium"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
