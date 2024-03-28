@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".ui.SplashTwoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/back"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentLeft="true"
+                        android:src="@mipmap/btn_back" />
+
+                    <TextView
+                        android:id="@+id/edit_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_horizontal|top"
+                        android:text="Set as active"
+                        android:visibility="gone"
+                        android:textColor="@color/themeColor"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/charger_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_horizontal|top"
+                    android:text="Charger name"
+                    android:textColor="@color/colorText"
+                    android:textSize="32sp" />
+
+                <TextView
+                    android:id="@+id/charger_serial_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_horizontal|top"
+                    android:text="HE518510#D82110386940127"
+                    android:textColor="@color/colorlight"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/bg_ly_services"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/shared"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:drawableLeft="@mipmap/ic_shared_cd"
+                        android:drawableRight="@mipmap/next_arrow"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="3dp"
+                        android:text="Share"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBg">
+
+                    </View>
+
+                    <TextView
+                        android:id="@+id/warranty_plan"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:drawableLeft="@mipmap/ic_subtract_cd"
+                        android:drawableRight="@mipmap/next_arrow"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="3dp"
+                        android:text="Warranty plan"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bg_ly_services"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/software"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:drawableLeft="@mipmap/ic_sw_update_cd"
+                        android:drawableRight="@mipmap/next_arrow"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="3dp"
+                        android:visibility="gone"
+                        android:text="Software"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBg">
+
+                    </View>
+
+                    <TextView
+                        android:id="@+id/session_history"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:drawableLeft="@mipmap/ic_session_cd"
+                        android:drawableRight="@mipmap/next_arrow"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="3dp"
+                        android:text="Sessions history"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBg">
+
+                    </View>
+
+                    <TextView
+                        android:id="@+id/wifi_config"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:drawableLeft="@mipmap/ic_wifi_cd"
+                        android:drawableRight="@mipmap/next_arrow"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="3dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="3dp"
+                        android:text="Wi-fi Configuration"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="3dp"
+                    android:text="Get details on Bluetooth"
+                    android:textColor="@color/colorText"
+                    android:textSize="20sp">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_ly_services"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableLeft="@mipmap/ic_info_cd"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="3dp"
+                    android:text="Info"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorBg">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/server"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableLeft="@mipmap/ic_server_cd"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="3dp"
+                    android:text="Server"
+                    android:textColor="@color/colorText"
+                    android:textColorHint="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorBg">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/system"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+
+                    android:drawableLeft="@mipmap/ic_system_cd"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="3dp"
+                    android:text="System"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorBg">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/protection"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableLeft="@mipmap/ic_protection_cd"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="3dp"
+                    android:text="Protection"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorBg">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/ac_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+
+                    android:drawableLeft="@mipmap/ic_connector_cd"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="3dp"
+                    android:text="AC Input"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorBg">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/live"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableLeft="@mipmap/ic_live_cd"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="3dp"
+                    android:text="Live"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorBg">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/alarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableLeft="@mipmap/ic_alrams_cd"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="3dp"
+                    android:text="Alarm"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorBg">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/logs"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:drawableLeft="@mipmap/logs"
+                    android:drawableRight="@mipmap/next_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="20dp"
+                    android:text="Logs"
+                    android:textColor="@color/colorText"
+                    android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_delete_charger"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/bg_unselected_btn"
+                        android:fontFamily="@font/inter_medium"
+                        android:text="Delete charger"
+                        android:textAllCaps="false"
+                        android:visibility="gone"
+                        android:textColor="#ED3249"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

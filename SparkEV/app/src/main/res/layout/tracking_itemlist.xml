@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:weightSum="1"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/inter_regular"
+        android:inputType="textCapSentences"
+        android:paddingTop="0dp"
+        android:gravity="center"
+        android:paddingBottom="0dp"
+        android:singleLine="true"
+        android:text="3.11.2022"
+        android:layout_weight="0.25"
+        android:textColor="@color/colorText"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ly_status_checked"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:background="@drawable/circle_theme">
+            <ImageView
+                android:id="@+id/img_status"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/img_checked">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_status_unchecked"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:background="@drawable/circle_gray"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+               >
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+
+        <View
+            android:id="@+id/status_line"
+            android:layout_width="2dp"
+            android:layout_height="100dp"
+            android:background="@color/colorTextLight">
+
+        </View>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0dp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/inter_regular"
+        android:hint="Name"
+        android:inputType="textCapSentences"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_weight="0.55"
+        android:text="Request initiated "
+        android:textColor="@color/colorText"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical">
+
+
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.85"
+                android:background="@color/colorBg"
+                android:orientation="vertical"
+                android:padding="20dp"
+               >
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@mipmap/btn_back">
+
+                </ImageView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_horizontal|top"
+                    android:text="Add schedule"
+                    android:textColor="@color/colorText"
+                    android:textSize="32sp" />
+
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/inter_regular"
+                    android:hint="Session name"
+                    android:padding="15dp"
+                    android:inputType="textCapSentences"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTextMeduim"
+                    android:textColorHint="@color/colorTextMeduim"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@mipmap/ic_date"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:padding="15dp"
+                    android:singleLine="true"
+                    android:text="Start day"
+                    android:textColor="@color/colorTextMeduim"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@mipmap/down_arrow"
+                    android:fontFamily="@font/inter_regular"
+                    android:padding="15dp"
+                    android:singleLine="true"
+                    android:text="Start time"
+
+                    android:textColor="@color/colorTextMeduim"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+                <TextView
+                    android:id="@+id/duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@mipmap/down_arrow"
+                    android:fontFamily="@font/inter_regular"
+                    android:padding="15dp"
+                    android:singleLine="true"
+                    android:text="Duration"
+                    android:textColor="@color/colorTextMeduim"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+
+                <TextView
+                    android:id="@+id/repeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@mipmap/down_arrow"
+                    android:fontFamily="@font/inter_regular"
+                    android:padding="15dp"
+                    android:singleLine="true"
+                    android:text="Repeat"
+                    android:visibility="gone"
+                    android:textColor="@color/colorTextMeduim"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:background="@color/coloretTexT_Botttom">
+
+                </View>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_weight="0.15">
+                <Button
+                    android:id="@+id/btn_add_schedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_login_btn"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="Add schedule"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    <!--</ScrollView>-->
+</LinearLayout>

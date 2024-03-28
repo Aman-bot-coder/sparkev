@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="20dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="right"
+        android:layout_weight="0.1">
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/ic_close">
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_ly"
+        android:orientation="vertical"
+        android:layout_weight="0.90">
+
+        <ImageView
+            android:id="@+id/img_help"
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/help_charger">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/serial_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:padding="3dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="190dp"
+            android:fontFamily="@font/inter_regular"
+            android:background="@drawable/bg_ly"
+            android:visibility="gone"
+            android:textColor="@color/colorTextLight"
+            android:text="HE518221#CHARGERTEST0006">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_hepl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_below="@+id/img_help"
+            android:fontFamily="@font/inter_regular"
+            android:textColor="@color/colorTextLight"
+            android:text="Charger’s ID allocated on it’s right side \n\n Ex: HE51XXXX#DOXXXXXXXXXXX34">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

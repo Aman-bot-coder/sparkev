@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="20dp"
+            android:background="#f1f1f1"
+            android:id="@+id/Table_Layout">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:weightSum="5">
+                <TextView
+                    android:text="SNo."
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.5"/>
+                <TextView
+                    android:text="Date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1.25"/>
+
+                <TextView
+                    android:text="Time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="1.25"/>
+                <TextView
+                    android:text="Alarm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="4"
+                    android:layout_weight="1.5"/>
+                <TextView
+                    android:text="Status"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="5"
+                    android:layout_weight="0.5"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button_Layout"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Get_Previous"
+                android:text="PREV"
+                android:layout_marginHorizontal="30dp"
+                android:layout_gravity="left"
+                android:visibility="gone"
+                android:enabled="false"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Get_Next"
+                android:text="NEXT"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_marginHorizontal="30dp"
+                android:visibility="gone"
+                android:enabled="false"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

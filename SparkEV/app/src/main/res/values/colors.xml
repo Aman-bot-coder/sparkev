@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF06bfbf</color>
+    <color name="purple_500">#FF06bfbf</color>
+    <color name="purple_700">#FF06bfbf</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="themeColor">#FF06bfbf</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorGray">#646464</color>
+    <color name="colorLightGray">#d9d9d9</color>
+    <color name="colorlightGray">#e7e7e7</color>
+    <color name="colorGreen">#2DE5B7</color>
+    <color name="colorRed">#ED3249</color>
+    <color name="lightGray">#ececec</color>
+    <color name="colorMenuitem">#627E8B</color>
+    <color name="colorGreenDark">#182630</color>
+    <color name="colorBtn">#262C39</color>
+    <color name="colorYellow">#FED42A</color>
+    <color name="darkGray">#1E2F3A</color>
+    <color name="colorTextcolor">#80878f</color>
+    <color name="colorTextpending">#ff4800</color>
+    <color name="colorLightBlue">#3785e9</color>
+    <color name="colorOrange">#FF8C00</color>
+    <color name="blue">#FF4285f4</color>
+    <color name="Green">#008000</color>
+    <color name="iconColor">#31A09A</color>
+    <color name="iconColorTwo">#4CCCAD</color>
+    <color name="colorBg">#F5F5F5</color>
+    <color name="colorText">#262626</color>
+    <color name="colorTextLight">#8c8c8c</color>
+    <color name="coloretTexT_Botttom">#d9d9d9</color>
+    <color name="colorTextMeduim">#434343</color>
+    <color name="colorlight">#FFDAB9</color>
+
+
+</resources>

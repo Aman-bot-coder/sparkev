@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    tools:context=".ui.SplashTwoActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/btn_back" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/inter_regular"
+            android:text="Sessions history"
+            android:textColor="@color/colorText"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/ly_start_date"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.90"
+                android:background="@drawable/bg_ly_services"
+                android:gravity="left|center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/start_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/ic_cal_sh"
+                    android:drawableRight="@mipmap/arrow_sh"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="Start date"
+                    android:textColor="@color/colorTextLight"
+                    android:textSize="12sp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_end_date"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="0.90"
+                android:background="@drawable/bg_ly_services"
+                android:gravity="left|center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/end_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/ic_cal_sh"
+                    android:drawableRight="@mipmap/arrow_sh"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="End date"
+                    android:textColor="@color/colorTextLight"
+                    android:textSize="12sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:layout_weight="0.2">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/ic_search_icon" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/ly_select_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/get_occp_logs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/tb_ble"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="OCPP logs"
+                android:textColor="@color/colorText"
+                android:textSize="16sp" />
+
+            <ToggleButton
+                android:id="@+id/tb_ble"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_switch"
+                android:textOff=""
+                android:textOn="" />
+
+            <TextView
+                android:id="@+id/get_ble_logs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="BLE logs"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tb_ble"
+                android:textColor="@color/colorText"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="15dp"
+            android:scrollbars="none">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center"
+            android:text="Session log not found."
+            android:textColor="@color/colorTextLight"
+            android:textSize="22sp"
+            android:visibility="gone">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

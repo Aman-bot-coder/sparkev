@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".ui.SplashTwoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@mipmap/btn_back" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:text="Request an upgrade"
+                    android:textColor="@color/colorText"
+                    android:textSize="32sp" />
+
+                <LinearLayout
+                    android:id="@+id/ly_charger"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bg_ly_services"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:weightSum="1"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center_vertical|left"
+                        android:padding="15dp"
+                        android:text="Please fill in the following details which enables our engineer to plan a visit at your place to upgrade your charger. You will be notified about the engineer visit in advance."
+                        android:textColor="@color/colorText"
+                        android:textColorHint="@color/colorText"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:fontFamily="@font/inter_regular"
+                        android:hint="Name"
+                        android:inputType="textCapSentences"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:textColorHint="@color/colorTextcolor"
+
+                        android:singleLine="true"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+
+
+
+                    <TextView
+                        android:id="@+id/mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:focusable="false"
+                        android:textColorHint="@color/colorTextcolor"
+                        android:fontFamily="@font/inter_regular"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:hint="Mobile"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+
+                    <TextView
+                        android:id="@+id/charger_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:drawableRight="@mipmap/down_arrow"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColorHint="@color/colorTextcolor"
+                        android:hint="Exicom Charger"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+                    <TextView
+                        android:id="@+id/country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:drawableRight="@mipmap/down_arrow"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:paddingTop="15dp"
+                        android:textColorHint="@color/colorTextcolor"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:hint="Select Country"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+
+
+                    <TextView
+                        android:id="@+id/state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:drawableRight="@mipmap/down_arrow"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColorHint="@color/colorTextcolor"
+                        android:hint="Select State"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+
+                    <!--  <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="10dp"
+                          android:gravity="center_vertical"
+                          android:orientation="horizontal"
+                          android:weightSum="1">
+                          &lt;!&ndash; <TextView
+                               android:layout_width="0dp"
+                               android:layout_height="wrap_content"
+                               android:layout_weight="0.65"
+                               android:text="Select Model"
+                               android:layout_marginLeft="10dp"
+                               tools:ignore="Suspicious0dp"
+                               android:textSize="16sp">
+
+                           </TextView>&ndash;&gt;
+
+
+                      </LinearLayout>-->
+                    <EditText
+                        android:id="@+id/zipcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:fontFamily="@font/inter_regular"
+                        android:inputType="number"
+                        android:textColorHint="@color/colorTextcolor"
+                        android:visibility="gone"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:hint="Zipcode"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+
+                    <EditText
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@null"
+                        android:backgroundTint="@android:color/transparent"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="left|top"
+                        android:hint="Address"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:inputType="textCapSentences"
+                        android:textColor="@color/colorText"
+                        android:textColorHint="@color/colorTextLight"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableRight="@mipmap/ic_date"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:text="Choose the day"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+
+
+                    <!--
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:fontFamily="@font/inter_regular"
+                                    android:padding="0dp"
+                                    android:text="Please select between 9:00 to 18:00"
+                                    android:textColor="@color/colorGray"
+                                    android:textSize="16sp" />-->
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableRight="@mipmap/ic_time"
+                        android:fontFamily="@font/inter_regular"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:singleLine="true"
+                        android:text="Choose the time"
+                        android:textColor="@color/colorText"
+                        android:textSize="16sp" />
+
+                    <!-- <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="10dp"
+                         android:padding="0dp"
+                         android:text="Choose the topic"
+                         android:textColor="@color/colorGray"
+                         android:textSize="16sp" />-->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+                        <!-- <TextView
+                             android:layout_width="0dp"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="0.65"
+                             android:text="Select Model"
+                             android:layout_marginLeft="10dp"
+                             tools:ignore="Suspicious0dp"
+                             android:textSize="16sp">
+
+                         </TextView>-->
+
+
+                    </LinearLayout>
+
+
+
+                    <EditText
+                        android:id="@+id/remarks"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:drawablePadding="10dp"
+                        android:gravity="left|top"
+                        android:fontFamily="@font/inter_regular"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:hint="Remarks"
+                        android:background="@null"
+                        android:backgroundTint="@android:color/transparent"
+                        android:textColor="@color/colorText"
+                        android:textColorHint="@color/colorTextLight"
+                        android:textSize="16sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/coloretTexT_Botttom">
+
+                    </View>
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ly_warranty_two"
+                        android:layout_width="150dp"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_ly_wrarrnty_two_grad"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+
+                        <TextView
+                            android:id="@+id/tv_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:fontFamily="@font/inter_medium"
+                            android:gravity="bottom|center"
+                            android:text="Upgrade charger"
+                            android:textColor="@color/white"
+                            android:textFontWeight="500"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="bottom"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="bottom|center"
+                            android:text="Rs. 4000"
+                            android:textColor="@color/white"
+                            android:textFontWeight="500"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_request_upgrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/bg_login_btn"
+                        android:fontFamily="@font/inter_medium"
+                        android:text="Proceed"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

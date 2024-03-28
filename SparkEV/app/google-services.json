@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "425149178285",
+    "project_id": "augmentaa---cms-mobile-app",
+    "storage_bucket": "augmentaa---cms-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425149178285:android:b872e60431071b54274124",
+        "android_client_info": {
+          "package_name": "com.augmentaa.sparkev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6bBIlo2FsWlCFsP0mLKGwbs_AUbugNx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".ui.SplashTwoActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.80"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_horizontal|top"
+            android:text="@string/contact_us_u"
+            android:textColor="@color/colorText"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:id="@+id/ly_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ly_services"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/coloretTexT_Botttom"
+                android:fontFamily="@font/inter_regular"
+                android:text="18005725845"
+                android:padding="20dp"
+                android:drawableLeft="@mipmap/ic_call"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_whatup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ly_services"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/coloretTexT_Botttom"
+                android:fontFamily="@font/inter_regular"
+                android:text="WhatsApp"
+                android:padding="20dp"
+                android:drawableLeft="@mipmap/ic_whatsapp"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ly_services"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/coloretTexT_Botttom"
+                android:fontFamily="@font/inter_regular"
+                android:text="evsupport@exicom.in"
+                android:padding="20dp"
+                android:drawableLeft="@mipmap/ic_msg"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ly_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ly_services"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/coloretTexT_Botttom"
+                android:fontFamily="@font/inter_regular"
+                android:text="https://exicom-ps.com"
+                android:padding="20dp"
+                android:drawableLeft="@mipmap/ic_web"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_callbackrequest"
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/inter_medium"
+                android:textSize="16sp"
+                android:background="@drawable/bg_login_btn"
+                android:text="Callback request"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

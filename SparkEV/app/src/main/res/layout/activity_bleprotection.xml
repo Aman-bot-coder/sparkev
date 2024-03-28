@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.BLEACInputActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:src="@mipmap/btn_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_horizontal|top"
+                android:text="Protection"
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_ly_services"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="@font/inter_regular"
+                    android:singleLine="true"
+                    android:text="Energy Meter Alarm"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp" />
+                <ToggleButton
+                    android:id="@+id/tb_energy_meter_alarm"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:enabled="false"
+
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bg_switch"
+                    android:textOff=""
+                    android:textOn=""/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_ly_services"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="@font/inter_regular"
+                    android:singleLine="true"
+                    android:text="Earth Disconnect Alarm"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp" />
+
+                <ToggleButton
+                    android:id="@+id/tb_earth_disconnect_alarm"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bg_switch"
+                    android:textOff=""
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:enabled="false"
+                    android:textOn=""/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_ly_services"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="@font/inter_regular"
+                    android:singleLine="true"
+                    android:text="N-E Voltage Alarm"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp" />
+                <ToggleButton
+                    android:id="@+id/tb_n_e_voltage_alarm"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:enabled="false"
+
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bg_switch"
+                    android:textOff=""
+                    android:textOn=""/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_ly_services"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="@font/inter_regular"
+                    android:singleLine="true"
+                    android:text="Session kWh"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp" />
+                <ToggleButton
+                    android:id="@+id/tb_session_kwh"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:enabled="false"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bg_switch"
+                    android:textOff=""
+                    android:textOn=""/>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_ly_services"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="@font/inter_regular"
+                    android:singleLine="true"
+                    android:text="N-E Voltage Cut-Off"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tb_n_e_voltage_cut_Off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@font/inter_regular"
+                    android:singleLine="true"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

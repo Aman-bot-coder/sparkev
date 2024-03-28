@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".ui.SplashTwoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:src="@mipmap/btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/inter_regular"
+            android:gravity="center_horizontal|top"
+            android:text="Purchase details"
+            android:textColor="@color/colorText"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_ly_services"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_medium"
+                android:gravity="center_horizontal|top"
+                android:text="Purchase details"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/kwh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inter_regular"
+                android:text="750 kWh"
+                android:drawableLeft="@mipmap/lightning"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inter_regular"
+                android:text="Rs. 4500+GST (-18%)"
+                android:drawableLeft="@mipmap/price"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inter_regular"
+                android:text="24.06.2022 - 24.06.2025"
+                android:drawableLeft="@mipmap/ic_cal_w"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/inter_regular"
+                android:text=" G-21/210, Sector 7, Opp Taj hotel, Rohini new Delhi India"
+                android:drawableLeft="@mipmap/location"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textSize="12sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+               >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_change_address"
+                    style="@style/CustomButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_unselected_btn"
+                    android:text="Change address"
+                    android:padding="2dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorText" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center_horizontal|top"
+                    android:text="By continuing you agree to our"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/term_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center_horizontal|bottom"
+                android:text="@string/term_and_condition"
+                android:layout_marginTop="2dp"
+
+                android:textAppearance="@style/control_sch" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_purchase"
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_login_btn"
+                android:text="Purchase"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
